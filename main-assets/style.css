@@ -1,0 +1,53 @@
+@font-face {
+    font-family: vazir;
+    src: url('fonts/webfonts/Vazirmatn-ExtraLight.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: vazir !important;
+}
+
+
+.my-section {
+    background-color: #dbdae4;
+}
+
+.icon {
+    color: #0d6efd;
+    background-color: #ebeafb;
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card-primary {
+    background-color: #25314d;
+    color: white !important;
+}
+
+
+.back-color {
+    background-color: #1b2a4e;
+    color: aliceblue;
+}
+
+
+.my-pip {
+    width: 200px;
+    height: 185px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000;
+}
+.footer-header {
+    border-bottom: 3px solid;
+    height: 35px;
+}
+
+.footer-link:hover {
+    color: #000;
+}
