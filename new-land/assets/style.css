@@ -13,8 +13,53 @@ body {
     font-family: "Vazir" !important;
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.5 !important;
+}
+
+/* Utilities */
+.hover-grow {
+    transition: all 0.5s;
+}
+
+.hover-grow:hover {
+    transform: scale(1.1);
+}
+
+
 /* Header */
+.header {
+    transition: all 0.5s;
+    padding: 15px 0;
+}
+
 .header-scrolled {
     background-color: #fff;
     box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+}
+
+@media (max-width : 992px) {
+    .header {
+        background-color: white;
+    }
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/images/intro/intro-bg.png') top center no-repeat;
+    background-size: cover;
 }
