@@ -11,6 +11,8 @@
         integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/style.css">
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <!-- Alpine.js -->
     <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
 </head>
@@ -62,7 +64,7 @@
     </header><!-- / header -->
 
     <!-- Intro -->
-    <section class="intro d-flex align-items-center">
+    <section class="intro d-flex align-items-center overflow-hidden">
         <div class="container">
             <div class="row align-items-center mt-5 mt-lg-0">
                 <div class="col-lg-6">
@@ -107,7 +109,7 @@
                     <p>برای نمایش مقالات خود میتوانید در این جا عمل کنید</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row g-2">
                 <div class="col-md-6 col-lg-4">
                     <div class="card shadow">
                         <img src="assets/images/values/1.png" class="card-img-top" alt="...">
@@ -119,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card shadow">
                         <img src="assets/images/values/2.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -130,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card shadow">
                         <img src="assets/images/values/3.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -145,10 +147,65 @@
         </div>
     </section>
 
+    <!-- Counts -->
+    <section class="counts py-5 overflow-hidden">
+        <div class="container">
+            <div class="row gy-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-6 col-lg-3">
+                    <div class="d-flex align-items-center justify-content-center shadow p-3">
+                        <i class="bi bi-emoji-smile blue me-3"></i>
+                        <div>
+                            <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                                data-purecounter-end="9001">0</span>
+                            <p>لورم ایپسوم متن</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="d-flex align-items-center justify-content-center shadow p-3">
+                        <i class="bi bi-journal-richtext orange me-3"></i>
+                        <div>
+                            <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                                data-purecounter-end="542">0</span>
+                            <p>لورم ایپسوم متن</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="d-flex align-items-center justify-content-center shadow p-3">
+                        <i class="bi bi-headset green me-3"></i>
+                        <div>
+                            <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                                data-purecounter-end="8651">0</span>
+                            <p>لورم ایپسوم متن</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="d-flex align-items-center justify-content-center shadow p-3">
+                        <i class="bi bi-people red me-3"></i>
+                        <div>
+                            <span class="fs-3 fw-bold text-primary purecounter" data-purecounter-start="0"
+                                data-purecounter-end="699">0</span>
+                            <p>لورم ایپسوم متن</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <!-- Pure Counter -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+        <script>
+            new PureCounter();
+        </script>
 </body>
 
 </html>

@@ -65,8 +65,24 @@ p {
 }
 
 /* About */
-
 .content {
     background-color: #e9f0f0;
     padding: 40px;
+}
+
+/*  Counts */
+.counts i {
+    font-size: 2.8rem;
+}
+.counts i.blue {
+    color: rgb(17, 164, 223);
+}
+.counts i.orange {
+    color: #ee6c20;
+}
+.counts i.green {
+    color: #15be56;
+}
+.counts i.red {
+    color: #bb0582;
 }
